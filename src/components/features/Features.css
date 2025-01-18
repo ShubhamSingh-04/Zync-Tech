@@ -1,0 +1,85 @@
+.features-container{
+    margin-top: 70px;
+    width: 99.8vw;
+    height: auto;
+
+    /* border: 2px solid green; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features-heading{
+    color: rgba(230, 63, 58, 1);
+    font-weight: 500;
+    margin: 0px;
+}
+
+.features-tagline{
+    margin: 5px 0 ;
+    color: rgb(53, 52, 52);
+    font-weight: 640;
+
+    font-size: 2rem;
+}
+
+.features-sub-tagline{
+    width: 553px;
+    text-align: center;
+
+    color: rgba(71, 84, 103, 1);
+
+}
+
+.features-list-container{
+    width: 100%;
+    /* border: 2px solid red; */
+    height: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding: 0 109px;
+    margin-top: 2.5rem;
+
+}
+
+.feature-container{
+    width: 30%;
+    /* border: 2px solid green; */
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0.2rem 0;
+}
+
+.feature-icon{
+    height: 3.3rem;
+    width: 3.3rem;
+}
+
+.feature-heading{
+    font-weight: bold;
+    text-align: center;
+    font-size: 1rem;
+    margin: 1.5rem 0;
+}
+
+.feature-desc{
+    text-align: center;
+    color: rgba(71, 84, 103, 1);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+/* Mobile styles go here */
+@media (max-width: 768px) {
+    
+  }
