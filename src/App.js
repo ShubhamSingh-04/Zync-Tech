@@ -1,6 +1,7 @@
 import './App.css';
 
 import NavBar from './components/navbar/NavBar'
+import SignUp from './components/sign-up/SignUp';
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
       <NavBar/>
 
       <div className="main-section">
-        
+        <SignUp/>
       </div>
     </div>
   );

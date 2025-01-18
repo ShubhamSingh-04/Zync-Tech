@@ -1,5 +1,5 @@
 .navbar-container{
-    border: 1px solid rgba(242, 244, 247, 1);
+    border: 2px solid rgba(242, 244, 247, 1);
     background-color: white;
 }
 
@@ -18,13 +18,20 @@
 
 }
 
-.profile-img{
+.nav-link:hover{
+    color: rgb(0, 0, 0) !important;
+}
+
+.profile-img-container{
     height: 2.3rem;
     width: 3.5%;
     border-radius: 50%;
 
-    background-image: url(../../../public/images/profile-img.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    overflow: hidden;
 
+}
+
+.profile-img{
+    height: 100%;
+    width: 100%;
 }

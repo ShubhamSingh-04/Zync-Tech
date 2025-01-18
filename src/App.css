@@ -1,5 +1,9 @@
-/* .main-section{
+.main-section{
     width: 100vw;
-    height: 90vh;
-    border: 1px solid red;
-} */
+    height: auto;
+    /* border: 1px solid red; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

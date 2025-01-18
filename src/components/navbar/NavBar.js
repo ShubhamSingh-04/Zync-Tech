@@ -37,8 +37,8 @@ export default function NavBar() {
                                 <a className="nav-link" aria-current="page" href="/">Pricing</a>
                             </li>
                         </ul>
-                        <div className="profile-img ms-auto">
-
+                        <div className="profile-img-container ms-auto">
+                                <img className='profile-img' src="/images/profile-img.png" alt="" />
                         </div>
                     </div>
                 </div>
