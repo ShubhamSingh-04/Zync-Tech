@@ -1,0 +1,73 @@
+.faq-container{
+    width: 98vw;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin: auto;
+}
+
+.faq-title{
+    font-size: 2rem;
+    font-weight: 650;
+    text-align: center;
+}
+
+.faq-sub-title{
+    font-size: 1.2rem;
+    color: rgba(71, 84, 103, 1);
+}
+
+.accordion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+
+    width: 70%;
+
+    *{
+        background-color: transparent !important;
+        border: none !important;
+        outline: none !important;
+    }
+
+    .accordion-button:focus {
+        box-shadow: none;
+      }
+}
+
+.accordion-item{
+    width: 70%;
+    border-bottom: 0.05rem solid rgb(218, 218, 218) !important;
+    padding: 0.5rem !important;
+}
+
+/* Remove the default Bootstrap arrow */
+.accordion-button::after {
+    display: none;
+}
+
+/* Custom +/- icon styling */
+.accordion-icon {
+    margin-left: auto; /* Push the icon to the far right */
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: transform 0.3s ease; /* Smooth transform */
+}
+
+.accordion-icon.open {
+    transform: rotate(0deg); /* Keep as is for '-' */
+}
+
+.accordion-button.collapsed .accordion-icon {
+    transform: rotate(0deg); /* Keep as '+' */
+}
+
+.accordion-body{
+    color: rgba(71, 84, 103, 1);
+}

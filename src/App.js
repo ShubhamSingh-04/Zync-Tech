@@ -4,6 +4,7 @@ import NavBar from './components/navbar/NavBar'
 import SignUp from './components/sign-up/SignUp';
 import Features from './components/features/Features';
 import Sysyphus from './components/sysyphys/Sysyphus';
+import Faq from './components/faq/Faq';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <SignUp/>
         <Features/>
         <Sysyphus/>
+        <Faq/>
       </div>
     </div>
   );
