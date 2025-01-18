@@ -1,6 +1,9 @@
 .navbar-container{
+    width: 100vw;
     border: 2px solid rgba(242, 244, 247, 1);
     background-color: white;
+
+    position: fixed;
 }
 
 .container-fluid{

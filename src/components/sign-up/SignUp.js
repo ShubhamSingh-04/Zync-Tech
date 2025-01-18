@@ -25,6 +25,23 @@ export default function SignUp() {
                     Sign Up
                 </div>
             </div>
+
+            <img src="/images/test-my-skills-img.png" alt="" className="test-my-skills-img" />
+
+            <div className="signup-companies">
+                <div className="signup-companies-heading">
+                    Join 4,000+ companies already growing
+                </div>
+
+                <div className="signup-company-logos">
+                    <img className='signup-companies-img' src="/images/company-1.png" alt="" />
+                    <img className='signup-companies-img' src="/images/company-2.png" alt="" />
+                    <img className='signup-companies-img' src="/images/company-3.png" alt="" />
+                    <img className='signup-companies-img' src="/images/company-4.png" alt="" />
+                    <img className='signup-companies-img' src="/images/company-5.png" alt="" />
+                    <img className='signup-companies-img' src="/images/company-6.png" alt="" />
+                </div>
+            </div>
         </div>
     )
 }

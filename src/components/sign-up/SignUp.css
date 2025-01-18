@@ -3,7 +3,7 @@
     color: inherit;
 }
 
-.sign-up-container {
+.sign-up-container{
     /* border: 2px solid green; */
     color: rgb(255, 140, 0);
 
@@ -18,12 +18,6 @@
     width: 77%;
     height: auto;
     gap: 48px;
-}
-
-
-.sign-up-container:hover{
-    color: rgb(255, 140, 0);
-    cursor: pointer;
 }
 
 .new-feature-container{
@@ -46,7 +40,7 @@
 }
 
 .new-feature-container:hover{
-    background-color: rgb(241, 199, 199);
+    background-color: rgb(245, 219, 219);
     cursor: pointer;
 }
 
@@ -96,16 +90,13 @@
     margin: 0 4px 0 0;
 }
 
-.signup-demo-btn-icon:hover{
-    cursor: pointer;
-}
-
 .signup-demo-btn{
     border: 2px solid rgb(215, 215, 215);
 }
 
 .signup-demo-btn:hover{
-    background-color: rgb(215, 215, 215);
+    cursor: pointer;
+    background-color: rgb(215, 215, 215);;
 }
 
 .signup-signup-btn{
@@ -115,4 +106,37 @@
 
 .signup-signup-btn:hover{
     background-color: rgb(166, 33, 29);
+}
+
+.test-my-skills-img{
+    width: 78%;
+    height: 470px;
+}
+
+.signup-companies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup-company-logos{
+    margin: 10px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    width: 90%;
+}
+
+.signup-companies-heading{
+    font-size: small;
+    color: rgba(71, 84, 103, 1);
+
+}
+
+.signup-companies-img{
+    max-width: 14%;
+    margin: 0 10px;
 }
