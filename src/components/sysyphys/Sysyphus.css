@@ -1,0 +1,45 @@
+.sysyphus-container{
+    height: auto;
+    width: 98vw;
+
+    padding: 3rem;
+    margin: 5rem 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(249, 250, 251, 1);
+
+}
+
+.sysyphus-logo{
+    height: 2rem;
+    width: 7rem;
+}
+
+.sysyphus-title{
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+
+    width: 62%;
+}
+
+.sysyphus-prod-mng-img{
+    height: 4rem;
+    width: 4rem;
+    margin-top: 1rem;
+}
+
+.sysyphus-prod-mng-name{
+    font-weight: 650;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.sysyphus-prod-mng-desig{
+    color: rgba(71, 84, 103, 1);
+
+}
