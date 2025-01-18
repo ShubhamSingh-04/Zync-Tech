@@ -66,6 +66,16 @@ export default function Faq() {
                     );
                 })}
             </div>
+
+            <div className="faq-more-questions-container">
+                <img className='more-questions-img' src="/images/more-questions.png" alt="" />
+                <p className="faq-more-questions-title">Still have questions?</p>
+                <p className="faq-more-questions-chat">Can’t find the answer you’re looking for? Please chat to our friendly team.</p>
+
+                <a href='/' className="faq-action-btn">
+                    Get in touch
+                </a>
+            </div>
         </div>
     );
 }

@@ -71,3 +71,48 @@
 .accordion-body{
     color: rgba(71, 84, 103, 1);
 }
+
+.faq-more-questions-container{
+    width: 70%;
+    margin: 3rem;
+
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 2rem;
+    background-color: rgb(247, 250, 250);
+
+}
+
+.more-questions-img{
+    height: 4rem;
+    width: 7.5rem;
+}
+
+.faq-more-questions-title{
+    margin: 1rem;
+    font-weight: 600;
+}
+
+.faq-more-questions-chat{
+    color: rgba(71, 84, 103, 1);
+    margin: 0 0 1rem 0;
+}
+
+.faq-action-btn{
+    background-color: rgba(230, 63, 58, 1);
+    color: white;
+    padding: 0.6rem 0.8rem;
+
+    font-weight: 500;
+    border-radius: 0.8rem;
+
+    text-decoration: none;
+}
+
+.faq-action-btn:hover{
+    background-color: rgb(180, 8, 2);;
+}
