@@ -60,6 +60,7 @@ a{
     footer{
         width: 100vw !important;
         margin-left: 4rem;
+        padding-left: 3rem;
     }
 
     .footer-col{

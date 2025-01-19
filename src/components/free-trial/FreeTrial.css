@@ -59,11 +59,12 @@
     .free-trial-container{
         width: 100vw;
         margin-top: 9rem;
-        margin-left: 10rem;
+        margin-left: 9rem;
     }
 
     .free-trial-heading{
         font-size: 2rem;
+        text-align: center;
     }
 
     .free-trial-sub-heading{

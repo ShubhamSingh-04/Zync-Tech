@@ -46,6 +46,7 @@
 @media (max-width: 767px){
     .sysyphus-container{
         width: 100vw;
+        margin-left: 3.5rem;
     }
 
     .sysyphus-logo{
