@@ -54,3 +54,30 @@
 .get-started-btn:hover{
     background-color: rgb(186, 48, 44);
 }
+
+@media (max-width:767px){
+    .free-trial-container{
+        width: 100vw;
+        margin-top: 5rem;
+    }
+
+    .free-trial-heading{
+        font-size: 2rem;
+    }
+
+    .free-trial-sub-heading{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .free-trial-action-buttons-container{
+        display: flex;
+        flex-direction: column-reverse;
+
+        width: 100%;
+    }
+
+    .free-trial-action-buttons{
+        text-align: center;
+    }
+}

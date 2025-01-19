@@ -116,3 +116,30 @@
 .faq-action-btn:hover{
     background-color: rgb(180, 8, 2);;
 }
+
+@media (max-width: 767px){
+    .faq-container{
+        width: 100vw;
+    } 
+
+    .faq-title{
+        font-size: 2.2rem;
+    }
+
+    .faq-sub-title{
+        text-align: center;
+    }
+
+    .accordion{
+        width: 100vw;
+    }
+
+    .accordion-item{
+        width: 100%;
+    }
+
+    .faq-more-questions-chat{
+        text-align: center;
+        width: 20rem;
+    }
+}

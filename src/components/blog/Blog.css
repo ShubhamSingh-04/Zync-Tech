@@ -151,5 +151,37 @@
 
 .blog-ele-published-on{
     color: rgba(71, 84, 103, 1);
-    ;
+}
+
+@media (max-width: 767px){
+    .blog-container{
+        width: 100vw;
+        /* border: 2px solid red; */
+        padding: 0;
+    }
+
+    .blog-title{
+        font-size: 1.4rem;
+    }
+
+    .blog-container-header{
+        position: relative;
+        width: 20rem;
+    }
+
+    .blog-container-header-2{
+        width: 28rem;
+    }
+
+    .blog-action-button-container{
+        position: absolute;
+        margin-top: 215rem;
+        margin-left: -94.5rem;
+        width: 120rem !important;
+    }
+
+    .blog-element{
+        width: 100%;
+        margin-bottom: 3rem;
+    }
 }

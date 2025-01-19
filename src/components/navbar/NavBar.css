@@ -1,5 +1,5 @@
 .navbar-container{
-    width: 100vw;
+    width: 100vw !important;
     border: 0.125rem solid rgba(242, 244, 247, 1);
     background-color: white;
 
@@ -38,4 +38,23 @@
 .profile-img{
     height: 100%;
     width: 100%;
+}
+
+
+/* Styles for mobile devices*/
+
+@media (max-width: 767px){
+    .navbar-container{
+        width: 34rem !important;
+    }
+
+    .container-fluid{
+        padding: 0  1rem;
+        width: 100% !important;
+    }
+
+    .profile-img-container{
+        height: 2.5rem;
+        width: 9.3%;
+    }
 }
