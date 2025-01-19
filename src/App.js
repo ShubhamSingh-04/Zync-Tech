@@ -5,6 +5,7 @@ import SignUp from './components/sign-up/SignUp';
 import Features from './components/features/Features';
 import Sysyphus from './components/sysyphys/Sysyphus';
 import Faq from './components/faq/Faq';
+import Blog from './components/blog/Blog';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Features/>
         <Sysyphus/>
         <Faq/>
+        <Blog/>
       </div>
     </div>
   );
