@@ -1,0 +1,56 @@
+.free-trial-container{
+    margin: 4rem;
+    width: 99vw;
+
+    padding: 3rem;
+
+    background-color: rgba(249, 250, 251, 1);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.free-trial-heading{
+    font-weight: 650;
+    font-size: 1.5rem;
+}
+
+.free-trial-sub-heading{
+    color: rgba(71, 84, 103, 1);
+    font-style: italic;
+}
+
+.free-trial-action-buttons-container{
+    margin-top: 2rem;
+}
+
+.free-trial-action-buttons{
+    text-decoration: none;
+    border: 2px solid red;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+
+    margin: 0.5rem;
+}
+
+.learn-more-btn{
+    font-weight: 500;
+    color: rgba(52, 64, 84, 1);
+    background-color: white;
+    border: 0.08rem solid rgba(208, 213, 221, 1)
+}
+
+.learn-more-btn:hover{
+    background-color: rgb(234, 235, 236);
+}
+
+.get-started-btn{
+    color: white;
+    background-color: rgba(230, 63, 58, 1);
+}
+
+.get-started-btn:hover{
+    background-color: rgb(186, 48, 44);
+}

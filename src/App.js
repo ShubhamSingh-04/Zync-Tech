@@ -6,6 +6,7 @@ import Features from './components/features/Features';
 import Sysyphus from './components/sysyphys/Sysyphus';
 import Faq from './components/faq/Faq';
 import Blog from './components/blog/Blog';
+import FreeTrial from './components/free-trial/FreeTrial';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Sysyphus/>
         <Faq/>
         <Blog/>
+        <FreeTrial/>
       </div>
     </div>
   );
