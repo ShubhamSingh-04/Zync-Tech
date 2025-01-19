@@ -120,6 +120,7 @@
 @media (max-width: 767px){
     .faq-container{
         width: 100vw;
+        margin-left: 3rem;
     } 
 
     .faq-title{
@@ -136,6 +137,10 @@
 
     .accordion-item{
         width: 100%;
+    }
+
+    .faq-more-questions-container{
+        margin-left: -0.6rem;
     }
 
     .faq-more-questions-chat{

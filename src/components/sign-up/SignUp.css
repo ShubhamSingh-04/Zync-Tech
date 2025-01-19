@@ -145,6 +145,7 @@
 @media (max-width: 767px){
     .sign-up-container{
         width: 100%;
+        margin-left: 5.1rem;
     }
     .new-feature-container{
         width: 84%;

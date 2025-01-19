@@ -58,7 +58,8 @@
 @media (max-width:767px){
     .free-trial-container{
         width: 100vw;
-        margin-top: 5rem;
+        margin-top: 9rem;
+        margin-left: 10rem;
     }
 
     .free-trial-heading{

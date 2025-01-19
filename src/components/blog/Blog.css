@@ -156,8 +156,8 @@
 @media (max-width: 767px){
     .blog-container{
         width: 100vw;
-        /* border: 2px solid red; */
         padding: 0;
+        margin-left: 4.2rem;
     }
 
     .blog-title{
