@@ -62,11 +62,15 @@ a{
     }
 
     .footer-col{
-        width: 12rem !important;
+        width: 9rem !important;
     }
 
     .logo-copyright{
         width: 100%;
         padding: 0;
+    }
+
+    .copyright{
+        font-size: 0.8rem;
     }
 }
