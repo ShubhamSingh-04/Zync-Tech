@@ -84,6 +84,7 @@
     .features-container{
         width: 100vw;
         margin-top: 1.4rem;
+        margin-left: 3.3rem;
     }
 
     .features-heading{
@@ -93,12 +94,14 @@
     .features-tagline{
         text-align: center;
         font-size: 2.5rem;
+        /* margin-left: 3.5rem; */
     }
 
     .features-sub-tagline{
         width: 100%;
         font-size: 1.6rem;
         margin-bottom: 0;
+        /* margin-left: 3.5rem; */
     }
 
     .features-list-container{
@@ -109,6 +112,7 @@
     .feature-container{
         width: 100vw;
         margin-top: 2rem;
+        margin-left: -1rem;
     }
 
     .feature-heading{
