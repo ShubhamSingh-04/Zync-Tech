@@ -58,7 +58,8 @@ a{
 
 @media (max-width:767px){
     footer{
-        width: 100vw;
+        width: 100vw !important;
+        margin-left: 4rem;
     }
 
     .footer-col{
