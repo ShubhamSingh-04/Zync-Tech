@@ -8,7 +8,7 @@
 
     font-weight: 550;
 
-    margin: 129px 0 0 0;
+    margin: 8.06rem 0 0 0;
 
     display: flex;
     align-items: center;
@@ -16,7 +16,7 @@
 
     width: 77%;
     height: auto;
-    gap: 48px;
+    gap: 3rem;
 }
 
 .new-feature-container{
@@ -27,12 +27,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid rgba(228, 61, 56, 0.3);
+    border: 0.12rem solid rgba(228, 61, 56, 0.3);
     background-color: rgb(255 238 238);
-    border-radius:37px;
+    border-radius:2.31rem;
     opacity: 50;
 
-    padding: 4px;
+    padding: 0.25rem;
 
     color: rgb(255, 140, 0);
     
@@ -44,23 +44,23 @@
 }
 
 .new-feature{
-    border-radius: 37px;
+    border-radius: 2.31rem;
     font-weight: 600;
     background-color: white;
 
     margin: 0 14px 0 0 ;
-    padding: 4px;
+    padding: 0.25rem;
 }
 
 .signup-tag-line{
     color: black;
     font-weight: 650;
-    font-size: 50px;
-    margin-bottom: -26px;
+    font-size: 3.12rem;
+    margin-bottom: -1.62rem;
 }
 
 .signup-sub-tag-line{
-    width: 668px;
+    width: 41.75rem;
     color: rgba(71, 84, 103, 1);
     font-size: large;
 
@@ -74,11 +74,11 @@
 
 
 .signup-action-btn{
-    width: 109px;
+    width: 6.81rem;
 
-    margin: 0 7px;
-    border-radius: 62px;
-    padding: 2px 0px;
+    margin: 0 0.43rem;
+    border-radius: 3.87rem;
+    padding: 0.12rem 0px;
 
     display: flex;
     justify-content: center;
@@ -87,11 +87,11 @@
 
 .signup-demo-btn-icon{
     height: 59%;
-    margin: 0 4px 0 0;
+    margin: 0 0.25rem 0 0;
 }
 
 .signup-demo-btn{
-    border: 2px solid rgb(215, 215, 215);
+    border: 0.12rem solid rgb(215, 215, 215);
 }
 
 .signup-demo-btn:hover{
@@ -111,7 +111,7 @@
 
 .test-my-skills-img{
     width: 78%;
-    height: 470px;
+    height: 29.37rem;
 }
 
 .signup-companies{
@@ -121,7 +121,7 @@
 }
 
 .signup-company-logos{
-    margin: 10px 0;
+    margin: 6.2rem 0;
 
     display: flex;
     align-items: center;
@@ -139,5 +139,5 @@
 
 .signup-companies-img{
     max-width: 14%;
-    margin: 0 10px;
+    margin: 0 6.2rem;
 }
